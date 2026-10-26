@@ -1,0 +1,76 @@
+/* css reset */
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f7fb;
+    color: #222;
+}
+header {
+    background-color: #102a43;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+nav {
+    margin-top: 15px;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+}
+.hero {
+    background-color: #dceeff;
+    text-align: end;
+    padding: 60px 20px;
+    text-align: center;
+}
+.hero h1 { 
+color: #102a43;
+font-size: 30px;
+text-align: center;
+}
+button {
+    background-color: #065c66;
+}
+button:hover {
+    background-color: #087f8c;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#services,
+#contact {
+    padding: 30px 20px;
+    text-align: center;
+}
+.card {
+    background-color: white;
+    padding: 25px;
+    margin: 15 auto;
+    max-width: 400px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px #00000015;
+}
+
+#services .card {
+display:inline-block ;
+width: 30%;
+vertical-align: top;
+margin: 10px 1%;
+box-sizing: border-box;
+background-color: white;
+padding: 20px;
+border-radius: 10px;
+}
+footer {
+    background-color: #102a43;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
